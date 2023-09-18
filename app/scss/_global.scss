@@ -1,5 +1,23 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .container {
   max-width: 1210px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+header {
+  background-image: url("../images/nav/bg-header.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.paragraph {
+  color:  #6C6C72;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
