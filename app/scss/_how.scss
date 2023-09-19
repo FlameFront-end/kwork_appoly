@@ -1,0 +1,42 @@
+.how {
+  .bg {
+    background-image: url("../images/features/features_bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section_content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 120px 0 216px 0 !important;
+  }
+  .top {
+    max-width: 600px;
+  }
+  .section_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 0;
+  }
+  .title, .paragraph {
+    text-align: center;
+    color: white;
+  }
+  .video {
+    position: absolute;
+    top: 320px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+  }
+  .play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    cursor: pointer;
+  }
+}

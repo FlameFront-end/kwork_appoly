@@ -1,0 +1,60 @@
+.interface {
+  .container {
+    max-width: 1340px;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-bottom: 60px;
+    .paragraph {
+      max-width: 600px;
+    }
+  }
+  .slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slider_navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 84px;
+    background-color: transparent;
+    border: 1px solid #5956E9;
+    border-radius: 50%;
+    transition: all .3s ease;
+  }
+
+  .slider_navigation:hover {
+    background-color: #5956E9;
+    svg path {
+      fill: white;
+    }
+  }
+  .pagination {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #5956e9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .slides {
+    gap: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
