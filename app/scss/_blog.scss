@@ -47,6 +47,10 @@
       line-height: 130%;
       text-decoration-line: underline;
       text-transform: uppercase;
+      transition: padding-left .3s ease-in-out;
+      &:hover {
+        padding-left: 10px;
+      }
     }
   }
   .bottom {
