@@ -1,0 +1,84 @@
+.customers {
+  background-image: url("../images/customers/customers-bg.jpg ");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      color: white;
+    }
+    .paragraph {
+      max-width: 600px;
+      color: white;
+      text-align: center;
+    }
+  }
+  .slider {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin: 74px 0;
+
+  }
+  .slide {
+    width: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 37px;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.24);
+    background-color: #FFF;
+    z-index: 1;
+    .paragraph {
+      text-align: center;
+    }
+    .name {
+      color: #232233;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 47.25px;
+      text-transform: uppercase;
+      padding-top: 20px;
+    }
+    .position {
+      color: #232233;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      text-transform: uppercase;
+      padding-bottom: 8px;
+    }
+
+    &.active {
+      width: 700px;
+      position: absolute;
+      top: -15px;
+      right: 50%;
+      transform: translate(50%);
+      padding: 60px 0;
+      z-index: 40;
+    }
+  }
+  .pagination {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
